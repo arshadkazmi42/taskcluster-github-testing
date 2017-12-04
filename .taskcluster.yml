@@ -12,7 +12,7 @@ tasks:
         events:
           - push
     payload:
-      command: ['echo', 'hello, world']
+      command: ['return 1']
       image: 'busybox'
       maxRunTime: 60
     metadata:
